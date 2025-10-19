@@ -1,0 +1,19 @@
+.offline-map {
+  background: radial-gradient(circle at 50% 35%, rgba(41, 92, 172, 0.32), rgba(5, 11, 20, 0.92));
+}
+
+.offline-map .leaflet-container {
+  filter: saturate(0.85);
+}
+
+.offline-map .leaflet-tile {
+  transition: opacity 0.25s ease;
+}
+
+.offline-map .leaflet-marker-icon .base-icon {
+  background: transparent;
+}
+
+.offline-map .offline-map__warning {
+  backdrop-filter: blur(6px);
+}
